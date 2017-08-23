@@ -26,9 +26,13 @@ a {
   text-decoration: none;
 }
 
-/*a:hover {
+a:hover {
+    color: light blue;
+}
+a:visited {
     color: gray;
-}*/
+}
+
 
 p {
   text-align: center;
@@ -75,10 +79,6 @@ h4 {
   /*font-family: 'Amatic SC', cursive;*/
 }
 
-
-/* ----------------------------------------
-Nav and header
-------------------------------------------- */
 
 nav {
     position: fixed;
@@ -181,10 +181,8 @@ Work
   transform: rotate(-90deg);
   transform: scale(1, 1);
   font-size: 14px;
-  font-weight: bold;
 }
 
-.fave-things a {
 
 /* ----------------------------------------
 Contact

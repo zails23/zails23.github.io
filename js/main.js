@@ -1,9 +1,7 @@
 
-
 $(window).on('scroll', function () {
   var distanceScrolled = $(window).scrollTop();
   console.log(distanceScrolled);
-
 
   if ($(document).scrollTop() >= 750) {
     $('.projects').addClass('faded-in');
