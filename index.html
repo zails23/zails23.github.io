@@ -8,7 +8,6 @@
   <meta name="description" content="Content Strategist, Designer, Writer, Speaker, and Doer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -20,11 +19,20 @@
 
 
 <body>
-  <nav>
 
+  <nav class="desktop">
     <a href="#home">Home</a>
     <a href="#mywork">My Work</a>
     <a href="#contact">Contact</a>
+  </nav>
+
+  <nav class="mobile">
+    <button>Toggle</button>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#mywork">My Work</a>
+      <a href="#contact">Contact</a>
+    </div>
   </nav>
 
   <header id="home">
@@ -79,7 +87,7 @@
     <section class="favorites">
         <h3>Favorite Things</h3>
         <div class="fave-things">
-          <p>Tackling apology emails to customers (when you need 'em, I'm your gal) | <a href="https://medium.com/capitalonedesign/when-should-we-turn-to-content-testing-429f8bddf622" target="_blank">Content research</a> | Synthesizing stuff | Figuring out how to localize content | Discussing information architecture | Writing a story | Facilitating a workshop | Mentorship | Public speaking | Adding punctuation to birthday cake copy | South Pacific Islands | Watching opposing teammates shake hands </p>
+          <p>Tackling apology emails to customers (when you need 'em, I'm your gal) | <a href="https://medium.com/capitalonedesign/when-should-we-turn-to-content-testing-429f8bddf622" target="_blank">Content research</a> | Synthesizing stuff | Figuring out how to localize content | Discussing information architecture | Writing a story | Facilitating a workshop | <a href="https://medium.com/capitalonedesign/one-question-to-ask-a-content-designer-and-everyone-else-when-starting-a-ux-project-b8be679a8013" target="_blank">Mentorship</a> | <a href="https://www.slideshare.net/SaraZailskasWalsh/" target="_blank">Public speaking</a> | Adding punctuation to birthday cake copy | South Pacific Islands | Watching opposing teammates shake hands </p>
         </div>
     </section>
 
@@ -91,14 +99,15 @@
         <a href="https://www.linkedin.com/in/sarazailskas/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
         <a href="https://www.instagram.com/mrsswalshz/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
       </div>
-      <p>I enjoy connecting with good people. If that's you, let's chat. <br><br>Or subscribe to my TinyLetter about my Midwestern self navigating the Bay Area: </p>
-      <form style="border:none #ccc;padding:1px;text-align:center;" action="https://tinyletter.com/zails23" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/zails23', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Email Address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Get My Newsletter" /><p><a </p></form>
+      <p>I enjoy connecting with good people. If that's you, let's chat. <br><br>Or <a href="https://tinyletter.com/zails23" target="_blank">subscribe to my TinyLetter</a> about my Midwestern self navigating the Bay Area.</p>
+      <!-- <form style="border:none #ccc;padding:1px;text-align:center;" action="https://tinyletter.com/zails23" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/zails23', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Email Address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Get My Newsletter" /><p><a </p></form> -->
     </section>
+
 
   </main>
 
   <footer>
-    <p class="footercopy">I built this in my FED class.<br> <br>©Sara Zailskas Walsh 2017<br> ... Except the icons: <a href="http://www.freepik.com" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0.</p>
+    <p class="footercopy">I built this in my FED class.<br> <br>©Sara Zailskas Walsh 2017<br> Icons: <a href="http://www.freepik.com" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0.</p>
   </footer>
 
   <script src="js/vendor/jquery-1.12.0.min.js"></script>
