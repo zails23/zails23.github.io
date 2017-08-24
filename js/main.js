@@ -9,10 +9,10 @@ $(window).on('scroll', function () {
   var distanceScrolled = $(document).scrollTop();
   console.log(distanceScrolled);
 
-  if (distanceScrolled >= workOffset) {
+  if (distanceScrolled >= workOffset - 200) {
     $('.projects').addClass('faded-in');
   }
-  if (distanceScrolled >= favesOffset - 200) {
+  if (distanceScrolled >= favesOffset) {
     $('.favorites').addClass('faded-in');
   }
   // if (distanceScrolled >= contactOffset) {

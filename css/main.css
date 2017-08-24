@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -60,9 +59,6 @@ h2 {
   text-align: center;
   font-weight: 700;
   padding: 10px;
-  font-weight: bold;
-  /*font-family: 'Amatic SC', cursive;*/
-
 }
 
 h3 {
@@ -74,12 +70,10 @@ h3 {
 h4 {
   font-size: 18px;
   text-align: center;
-  /*font-style: italic;*/
-  /*font-family: 'Amatic SC', cursive;*/
 }
 
 /* ----------------------------------------
-Navigation
+Navigation & Header
 ------------------------------------------- */
 
 nav {
@@ -89,7 +83,7 @@ nav {
     top: 0;
     padding-bottom: 1px;
     margin-bottom: 10px;
-    flex-basis; 100;
+    flex-basis: 100;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #F9FCFF;
@@ -105,7 +99,6 @@ nav a {
   border-bottom: none;
 	text-transform: uppercase;
   color: #3C3B3F;
-
 }
 
 .mobile {
@@ -113,11 +106,12 @@ nav a {
   position: fixed;
   width: 100%;
   top: 0;
-
 }
+
 .mobile div {
   display: none;
 }
+
 .mobile button {
   position: absolute;
   top: 15px;
@@ -126,7 +120,6 @@ nav a {
   text-indent: 200%;
   overflow: hidden;
   background: #F9FCFF url("https://i.imgur.com/vKRaKDX.png") center no-repeat;
-  border: none;
   border-radius: 3px;
   background-size: 80%;
   width: 30px;
@@ -136,12 +129,14 @@ nav a {
   transition: all 400ms ease;
 
 }
+
 .mobile button.expanded {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   background-color: transparent;
   border: 0;
 }
+
 .mobile a {
   display: block;
 }
@@ -151,9 +146,6 @@ nav a {
   overflow: hidden;
 }
 
-/* ----------------------------------------
-Main (rest of it)
-------------------------------------------- */
 
 header {
   background-image: url('../img/boraborawater.jpg');
@@ -199,14 +191,12 @@ Work
 .col-3-3-3 {
   margin: 20px 40px 40px 40px;
   flex-basis: 33%;
-
-
 }
+
 .col-2-3 {
   margin: 20px 60px 60px 60px;
 	flex-basis: 50%;
 }
-
 
 .projects div, .fave-things div {
   opacity: 1;
@@ -320,5 +310,5 @@ Responsive
     padding: 10px 20px;
 
 }
-
+}
 */
