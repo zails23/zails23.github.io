@@ -101,6 +101,10 @@ nav a {
   color: #3C3B3F;
 }
 
+.headerp {
+  font-size: 18px;
+}
+
 .mobile {
   display: none;
   position: fixed;
@@ -292,6 +296,7 @@ Responsive
     display: none;
   }
 
+}
   .row {
     flex-basis: 100%;
     flex-wrap: wrap;
