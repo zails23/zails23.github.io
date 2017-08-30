@@ -13,7 +13,8 @@ body {
   text-align: center;
   color: #44545E;
   font-size: 15px;
-  background-color:  #e6ffff;
+  background-color: #F9FCFF;
+  /*background-color:  #e6ffff;*/
 }
 
 main{
@@ -21,7 +22,7 @@ main{
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -51,6 +52,7 @@ h1 {
   font-weight: 400;
   padding-top: 10px;
   color: #ffffff;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 
 }
 
@@ -86,7 +88,7 @@ nav {
     flex-basis: 100;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #F9FCFF;
+    background-color: white;
 
 }
 
@@ -99,6 +101,7 @@ nav a {
   border-bottom: none;
 	text-transform: uppercase;
   color: #3C3B3F;
+  text-decoration: none;
 }
 
 .headerp {
@@ -152,7 +155,7 @@ nav a {
 
 
 header {
-  background-image: url('../img/boraborawater.jpg');
+  background-image: url('../img/clearwater.jpg');
   background-size: cover;
   background-position: center;
   padding: 0;
